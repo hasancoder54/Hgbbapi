@@ -1,15 +1,11 @@
 {
   "functions": {
-    // Statik dosyanın function'a dahil edilmesi
     "api/card.js": {
       "includeFiles": "images.gif"
     }
   },
   "rewrites": [
     {
-      // Daha temiz bir API yolu oluşturur:
-      // Kullanıcı: /card?user-name=...
-      // Vercel'e gider: /api/card?user-name=...
       "source": "/card",
       "destination": "/api/card"
     }
