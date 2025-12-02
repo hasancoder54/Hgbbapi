@@ -1,0 +1,11 @@
+{
+  "name": "vercel-discord-card-api",
+  "version": "1.0.0",
+  "description": "Vercel Serverless Function ile Discord kart API",
+  "dependencies": {
+    "jimp": "^0.22.12" 
+  },
+  "scripts": {
+    "start": "echo 'Vercel deployment başlatılıyor.'"
+  }
+}
